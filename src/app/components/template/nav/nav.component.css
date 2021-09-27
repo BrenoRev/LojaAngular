@@ -1,0 +1,11 @@
+.sidenav{
+    background-color: rgba(70, 190, 194, 0.438);
+    height: calc(100% - 128px);
+    margin-top: 64px;
+    width: 150px;
+}
+
+.sidenav a{
+    font-weight: 800;
+}
+
