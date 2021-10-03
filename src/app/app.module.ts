@@ -13,7 +13,10 @@ import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { MatCardModule } from '@angular/material/card';
 import { ProductComponent } from './views/product/product.component';
-import { MyforDirective } from './directives/myfor.directive'
+import { MyforDirective } from './directives/myfor.directive';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component'
+import { MatButtonModule } from '@angular/material/button';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,8 @@ import { MyforDirective } from './directives/myfor.directive'
     NavComponent,
     HomeComponent,
     ProductComponent,
-    MyforDirective
+    MyforDirective,
+    ProductCreateComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +35,8 @@ import { MyforDirective } from './directives/myfor.directive'
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
