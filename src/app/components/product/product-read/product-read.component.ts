@@ -21,7 +21,6 @@ export class ProductReadComponent implements OnInit {
   listar(): void{
     this.productService.read().subscribe((data) => {
       this.products = data;
-      console.log(this.products)
     })
   }
 }
