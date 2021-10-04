@@ -13,8 +13,8 @@ export class ProductCreateComponent implements OnInit {
   // Produto padrão
 
   product: Product = {
-    name: 'Padrão',
-    price: 0
+    name : '',
+    price : 0
   }
 
   constructor(private productService: ProductService,

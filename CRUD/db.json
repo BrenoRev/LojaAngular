@@ -24,6 +24,11 @@
       "name": "Padrão",
       "price": 99.99,
       "id": 5
+    },
+    {
+      "name": "PC Gamer",
+      "price": 3500,
+      "id": 6
     }
   ]
 }
