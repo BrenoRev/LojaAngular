@@ -30,7 +30,7 @@ export class ProductService {
     return this.http.get<Product[]> (this.baseurl);
   }
   
-  readById(id: number): Observable<Product>{
+  readById(id: string): Observable<Product>{
     return this.http.get<Product>(`${this.baseurl}/${id}`)
   }
 
