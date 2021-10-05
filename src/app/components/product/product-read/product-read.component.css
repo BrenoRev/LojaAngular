@@ -10,3 +10,7 @@ i.delete{
     padding-left: 20px;
     color: #e35e6b
 }
+
+.button:hover{
+    cursor: pointer;
+}

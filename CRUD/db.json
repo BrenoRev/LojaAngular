@@ -1,16 +1,6 @@
 {
   "products": [
     {
-      "name": "Caneta BIC Preta",
-      "price": 5.89,
-      "id": 1
-    },
-    {
-      "name": "Notebook Mac Pro",
-      "price": 10000,
-      "id": 2
-    },
-    {
       "name": "Samsung S26",
       "price": 5100.2,
       "id": 3
@@ -24,11 +14,6 @@
       "name": "Padrão",
       "price": 99.99,
       "id": 5
-    },
-    {
-      "name": "PC Gamer",
-      "price": 3500,
-      "id": 6
     },
     {
       "name": "Headset Gamer",

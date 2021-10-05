@@ -11,14 +11,15 @@ import { Product } from '../product.model';
 export class ProductUpdateComponent implements OnInit {
 
   product! : Product;
-  
+   // Pegar o parametro da url
+ 
+
   constructor(private productService: ProductService,
               private router: Router,
               private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    // Pegar o parametro da url
-    let id = this.route.snapshot.paramMap.get('id')
+    let id = this.route.snapshot.paramMap.get('id');
     
     // Pegar o objeto pelo id
     this.productService.readById(id!).subscribe((product) => {
