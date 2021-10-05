@@ -2,6 +2,7 @@
     height: 64px;
     display: flex;
     align-items: center;
+    width: 100%;
     background-color: rgba(90, 86, 86, 0.335);
     box-shadow: 0px 3px 3px rgba(70, 190, 194, 0.438);
 }
@@ -26,3 +27,28 @@ i{
 .header .title-group i{
     padding-right: 5px;
 }
+
+@media (max-width: 600px){
+    .header > .visibleMobile{
+        padding-top: 20px;
+        padding-left : 20px;
+        width: 90px;
+    }
+
+    .mobileForm{
+     display: inline;
+     font-size: 0.8rem;
+
+    }
+
+     i{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 601px){
+    .visibleMobile{
+       display: none;
+    }
+}
+

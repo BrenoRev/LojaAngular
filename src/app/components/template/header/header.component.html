@@ -9,7 +9,23 @@
             <i class="material-icons">
                 home
             </i>
-            <i>Aplicação Loja</i>
+            <i class="diminuir">Aplicação Loja</i>
         </a>
     </span>
+
+    <div class="visibleMobile">
+        <mat-form-field class="mobileForm">
+            <mat-label>Navegação</mat-label>
+            <mat-select>
+              <mat-option value="option1" routerLink="/">
+                  Inicio
+              </mat-option>
+              <mat-option value="option2"  routerLink="/products">
+                Produto
+            </mat-option>
+             
+            </mat-select>
+          </mat-form-field>
+        </div>
+
 </mat-toolbar>
