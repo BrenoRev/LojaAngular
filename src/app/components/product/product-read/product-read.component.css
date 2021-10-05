@@ -1,3 +1,12 @@
 table{
     width: 100%;
 }
+
+i.edit{
+    color: #d9cd26;    
+}
+
+i.delete{
+    padding-left: 20px;
+    color: #e35e6b
+}
