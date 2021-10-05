@@ -29,7 +29,8 @@ import { MatSortModule } from '@angular/material/sort';
 // PORTUGUÊS
 
 import localePt from '@angular/common/locales/pt';
-import { registerLocaleData } from '@angular/common'
+import { registerLocaleData } from '@angular/common';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component'
 
 registerLocaleData(localePt);
 
@@ -44,6 +45,7 @@ registerLocaleData(localePt);
     MyforDirective,
     ProductCreateComponent,
     ProductReadComponent,
+    ProductUpdateComponent,
 
   ],
   imports: [
