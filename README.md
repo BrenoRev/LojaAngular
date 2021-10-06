@@ -1,27 +1,37 @@
-# Loja
+# Front End Angular SPA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
+ <p>Ferramentas utilizadas</p>
+        <ul>
+  <li>Angular</li>
+  <li>DB Json [ FAKE API ]</li>
+  <li>Angular Material</li>
+        </ul>
+        <br>
+        <details>
+    <br>
+    <summary><b>IMAGENS DO PROJETO, CLIQUE AQUI PARA VER </b></summary>
+  
+  # DESKTOP
+  
+ ![homedesk](https://user-images.githubusercontent.com/84048306/136212501-b96a791a-4bf1-4901-9ebb-26b6cbf5afaa.png)
+  
+![listdesk](https://user-images.githubusercontent.com/84048306/136212511-7dcb6223-98fb-4d86-8670-91f090b153ee.png)
+  
+![newdesk](https://user-images.githubusercontent.com/84048306/136212520-6a731c8f-8de0-4d89-8461-af21260762d4.png)
+  
+![alterdesk](https://user-images.githubusercontent.com/84048306/136212535-e75d6a10-6424-4c70-8eca-c0b319e41784.png)
 
-## Development server
+# MOBILE
+  
+![homemobile](https://user-images.githubusercontent.com/84048306/136212695-910412a5-1a58-4341-82fb-5ac8e2db714f.png)
+  
+![listmobile](https://user-images.githubusercontent.com/84048306/136212723-0080daf8-2047-4a9a-9892-16890c121b8b.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![altermobile](https://user-images.githubusercontent.com/84048306/136212759-3369f3a8-1aa3-4dfa-8993-a28e9487715e.png)
 
-## Code scaffolding
+![newmobile](https://user-images.githubusercontent.com/84048306/136212770-b5db461d-0eb0-40d7-8914-f6bd3fbe6a8b.png)
+  
+![deletemobile](https://user-images.githubusercontent.com/84048306/136212789-9e8f89a5-66fb-438b-a97d-8c497f9ad692.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  
+  </details>
